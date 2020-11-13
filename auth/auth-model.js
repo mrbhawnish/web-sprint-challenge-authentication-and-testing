@@ -12,5 +12,5 @@ async function create(user) {
 }
 
 async function findBy(username) {
-     return db("users").where(username).first()
+     return db("users").where( username ).orderBy("id")
  }
