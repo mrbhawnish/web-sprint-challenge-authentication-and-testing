@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon index.js",
-    "test": "jest --watch verbose"
+    "test": "cross-env DB_ENV=testing jest --watch verbose"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,10 @@
     "sqlite3": "^5.0.0"
   },
   "devDependencies": {
+    "cross-env": "^7.0.2",
+    "eslint": "^7.13.0",
     "jest": "^26.6.3",
-    "nodemon": "^2.0.5"
+    "nodemon": "^2.0.5",
+    "supertest": "^6.0.1"
   }
 }

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`supertests for endpoints [POST] ENDPOINT TEST [GET] LOGIN ENDPOINT TEST Blocks a user from entering without  1`] = `
+Object {
+  "you": "shall not pass!",
+}
+`;
+
+exports[`supertests for endpoints [POST] ENDPOINT TEST [GET] LOGIN ENDPOINT TEST Blocks a user from entering without authentication  1`] = `
+Object {
+  "you": "shall not pass!",
+}
+`;
+
+exports[`supertests for endpoints [POST] ENDPOINT TEST [GET] LOGIN ENDPOINT TEST Blocks a user from entering without authentication  2`] = `
+Object {
+  "you": "shall not pass!",
+}
+`;
+
+exports[`supertests for endpoints [POST] ENDPOINT TEST [GET] LOGIN ENDPOINT TEST succesfully gets all of the resources  1`] = `
+Object {
+  "you": "shall not pass!",
+}
+`;
